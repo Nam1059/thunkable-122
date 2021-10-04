@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: navy;
+}
+canvas{
+    animation-name:cherry;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes cherry{
+    from{box-shadow: 1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 38px lightseagreen;}
+}
